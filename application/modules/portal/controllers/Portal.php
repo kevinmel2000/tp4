@@ -17,6 +17,10 @@ class Portal extends CI_Controller {
 		$this->load->view('permohonan');
 	}
 
+	public function baru(){
+		$this->load->view('index');
+	}
+
 }
 
 /* End of file Portal.php */
