@@ -11220,3 +11220,15 @@ li.ext_zip {
     margin-left: 0px;
   }
 }
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 310px;
+  background-color: #000000;
+}
+
+.container .text-muted {
+  margin: 20px 0;
+}
