@@ -32,6 +32,11 @@ class Portal extends CI_Controller {
 	$this->load->view('oka4');
 	}
 
+	public function slider()
+	{
+	$this->load->view('slider');
+	}
+
 	public function permohonan()
 	{
 		$this->load->view('permohonan');

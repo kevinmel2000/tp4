@@ -9,7 +9,10 @@
 	<!-- CSS INCLUDE -->
 	<link rel="stylesheet" type="text/css" id="theme" href="<?php echo base_url() ?>assets/css/theme-default.css" />
 	<link rel="stylesheet" type="text/css" id="theme" href="<?php echo base_url() ?>assets/builder/css/builder.css" />
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<!-- EOF CSS INCLUDE -->
+	<script type="text/javascript" src="assets/js/jQuery-2.1.4.min.js"></script> 
+ 	<script type="text/javascript" src="assets/js/jquery.cycle2.min.js"></script> 
 </head>
 <body class="">
 	<div class="page-container page-navigation-top page-navigation-top-custom">
@@ -89,9 +92,20 @@
 						</div>
 					</div>
 					<div class="panel-body padding-0">
-						<div class="chart-holder" id="dashboard-line-1" style="height: 200px;"></div>
+						<div class="chart-holder" id="dashboard-line-1"></div>
+							<div class="cycle-slideshow" >
+						 		<span class="cycle-prev">&#9001;</span> <!-- Untuk membuat tanda panah di kiri slider -->
+					    		<span class="cycle-next">&#9002;</span> <!-- Untuk membuat tanda panah di kanan slider -->
+							    <span class="cycle-pager"></span>  <!-- Untuk membuat tanda bulat atau link pada slider -->
+							    <img src="assets/img/1.jpg" alt="Gambar Pertama" title="test">
+							    <img src="assets/img/2.jpg" alt="Gambar Kedua">
+							    <img src="assets/img/3.jpg" alt="Gambar Ketiga">
+							    <img src="assets/img/4.jpg" alt="Gambar Keempat">
+					    		<img src="assets/img/1.png" alt="Gambar Kelima">
 					</div>
 				</div>
+			</div>
+					
 
 
 				<!-- PANEL KEGIATAN -->
