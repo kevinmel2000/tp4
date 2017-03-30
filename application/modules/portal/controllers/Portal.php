@@ -12,6 +12,26 @@ class Portal extends CI_Controller {
 		$this->load->view('index');
 	}
 
+	public function oka()
+	{
+		$this->load->view('oka1');
+	}
+
+	public function oka2()
+	{
+	$this->load->view('oka2');
+	}
+
+	public function oka3()
+	{
+	$this->load->view('oka3');
+	}
+
+	public function oka4()
+	{
+	$this->load->view('oka4');
+	}
+
 	public function permohonan()
 	{
 		$this->load->view('permohonan');
