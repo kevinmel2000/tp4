@@ -11,14 +11,9 @@
 	<link rel="stylesheet" type="text/css" id="theme" href="<?php echo base_url() ?>assets/builder/css/builder.css" />
 	<!-- EOF CSS INCLUDE -->
 	<style type="text/css">
-		.footer{
-			background-color: #297045;
-
-		}
-
 		.footer ul li a{
-			color: #CCD0D9;
-
+			color: #000000;
+			text-decoration: none;
 		}
 
 	</style>
@@ -29,13 +24,12 @@
 			<div class="page-content-header">
 				<a href="index.html" class="logo"></a>
 			</div>
-			<ul class="x-navigation x-navigation-horizontal" style="background: #297045">
+			<ul class="x-navigation x-navigation-horizontal" style="background: #9FDA01">
 				<li class="xn-navigation-control">
 					<a href="#" class="x-navigation-control"></a>
 				</li>
 				<li>
 					<a href="#">
-						
 						<span class="xn-text">DASHBOARD</span>
 					</a>
 				</li>
@@ -112,7 +106,7 @@
 					<div class="col-md-9">
 						<div class="col-md-4">
 							<div class="panel panel-default">
-								<div class="panel-heading">
+								<div class="panel-heading" style="background: #9FDA01">
 									<div class="panel-title-box">
 										<h3>KEGIATAN</h3>
 									</div>
@@ -124,7 +118,7 @@
 						</div>
 						<div class="col-md-4">
 							<div class="panel panel-default">
-								<div class="panel-heading">
+								<div class="panel-heading" style="background: #9FDA01">
 									<div class="panel-title-box">
 										<h3>KEGIATAN</h3>
 									</div>
@@ -136,7 +130,7 @@
 						</div>
 						<div class="col-md-4">
 							<div class="panel panel-default">
-								<div class="panel-heading">
+								<div class="panel-heading" style="background: #9FDA01">
 									<div class="panel-title-box">
 										<h3>KEGIATAN</h3>
 									</div>
@@ -148,7 +142,7 @@
 						</div>
 						<div class="col-md-4">
 							<div class="panel panel-default">
-								<div class="panel-heading">
+								<div class="panel-heading" style="background: #9FDA01">
 									<div class="panel-title-box">
 										<h3>KEGIATAN</h3>
 									</div>
@@ -160,7 +154,7 @@
 						</div>
 						<div class="col-md-4">
 							<div class="panel panel-default">
-								<div class="panel-heading">
+								<div class="panel-heading" style="background: #9FDA01">
 									<div class="panel-title-box">
 										<h3>KEGIATAN</h3>
 									</div>
@@ -172,7 +166,7 @@
 						</div>
 						<div class="col-md-4">
 							<div class="panel panel-default">
-								<div class="panel-heading">
+								<div class="panel-heading" style="background: #9FDA01">
 									<div class="panel-title-box">
 										<h3>KEGIATAN</h3>
 									</div>
@@ -186,7 +180,7 @@
 					</div>
 					<div class="col-md-3">
 						<div class="panel panel-default" style="height: 500px">
-							<div class="panel-heading">
+							<div class="panel-heading" style="background: #9FDA01">
 								<div class="panel-title-box">
 									<h3>SPONSOR</h3>
 								</div>
@@ -199,11 +193,13 @@
 				</div>
 
 				<!-- FOOTER -->
-				<footer class="footer">
+				<footer class="footer" style="background: #91DE00" >
+				<br>
 			      <div class="container">
-			      	<h3 class="text-muted">Kejaksaan Republik Indonesia</h3>
-			      	<div class="row">
-				      	<div class="col-sm-3 col-md-3 text-muted">
+			      	<h3 class="text-muted"  style="color: #000000 !important"><b>Kejaksaan Republik Indonesia</b></h3>
+			      	<br>
+			      	<div class="row" style="color: #000000 !important">
+				      	<div class="col-sm-3 col-md-3">
 	                 	 <!-- .weight -->
 	                     <div class="weight">
 	                        <strong>About Us</strong>
@@ -211,7 +207,7 @@
 	                     </div>
 	                      <!--/.weight -->
 	                  </div>
-	                  <div class="col-sm-2 col-md-2 text-muted">
+	                  <div class="col-sm-2 col-md-2">
 	                  	 <!-- .weight -->
 	                     <div class="weight">
 	                        <strong>Profil</strong>
@@ -225,7 +221,7 @@
 	                     </div>
 	                     <!-- /.weight -->
 	                  </div>
-	                  <div class="col-sm-2 col-md-2 text-muted">
+	                  <div class="col-sm-2 col-md-2">
 	                  	<!-- .weight -->
 	                     <div class="weight">
 	                        <strong>Kegiatan</strong>
@@ -238,7 +234,7 @@
 	                     <!-- /.weight -->
 	                  </div>
 
-	                  <div class="col-sm-2 col-md-2 text-muted">
+	                  <div class="col-sm-2 col-md-2">
 	                  	<!-- .weight -->
 	                     <div class="weight">
 	                        <strong>Kemitraan</strong>
@@ -252,7 +248,7 @@
 	                     </div>
 	                     <!-- /.weight -->
 	                  </div>
-	                  <div class="col-sm-3 col-md-3  text-muted">
+	                  <div class="col-sm-3 col-md-3 ">
 	                  <!-- .weight -->
 	                     <div class="weight">
 	                        <strong>Kontak Kami</strong>
@@ -264,7 +260,7 @@
 	               </div>
 			      		
 			      	<hr>
-			        <p class="text-muted">@2017 Kejaksaan Republik Indonesia</p>
+			        <p style="color: #000000 !important">@2017 Kejaksaan Republik Indonesia</p>
 			      </div>
 			    </footer>
 

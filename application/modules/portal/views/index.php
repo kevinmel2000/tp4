@@ -12,7 +12,7 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<!-- EOF CSS INCLUDE -->
 	<script type="text/javascript" src="assets/js/jQuery-2.1.4.min.js"></script> 
- 	<script type="text/javascript" src="assets/js/jquery.cycle2.min.js"></script> 
+	<script type="text/javascript" src="assets/js/jquery.cycle2.min.js"></script> 
 </head>
 <body class="">
 	<div class="page-container page-navigation-top page-navigation-top-custom">
@@ -85,27 +85,19 @@
 
 			<!-- Content -->
 			<div class="page-content-wrap">
-				<div class="panel panel-default">
-					<div class="panel-heading">
-						<div class="panel-title-box">
-						<h3>SLIDER</h3>
-						</div>
-					</div>
-					<div class="panel-body padding-0">
-						<div class="chart-holder" id="dashboard-line-1"></div>
-							<div class="cycle-slideshow" >
-						 		<span class="cycle-prev">&#9001;</span> <!-- Untuk membuat tanda panah di kiri slider -->
-					    		<span class="cycle-next">&#9002;</span> <!-- Untuk membuat tanda panah di kanan slider -->
-							    <span class="cycle-pager"></span>  <!-- Untuk membuat tanda bulat atau link pada slider -->
-							    <img src="assets/img/1.jpg" alt="Gambar Pertama" title="test">
-							    <img src="assets/img/2.jpg" alt="Gambar Kedua">
-							    <img src="assets/img/3.jpg" alt="Gambar Ketiga">
-							    <img src="assets/img/4.jpg" alt="Gambar Keempat">
-					    		<img src="assets/img/1.png" alt="Gambar Kelima">
+				<div>
+					<div class="cycle-slideshow" >
+						<span class="cycle-prev">&#9001;</span> <!-- Untuk membuat tanda panah di kiri slider -->
+						<span class="cycle-next">&#9002;</span> <!-- Untuk membuat tanda panah di kanan slider -->
+						<span class="cycle-pager"></span>  <!-- Untuk membuat tanda bulat atau link pada slider -->
+						<img src="assets/img/1.jpg" alt="Gambar Pertama" title="test">
+						<img src="assets/img/2.jpg" alt="Gambar Kedua">
+						<img src="assets/img/3.jpg" alt="Gambar Ketiga">
+						<img src="assets/img/4.jpg" alt="Gambar Keempat">
+						<img src="assets/img/1.png" alt="Gambar Kelima">
 					</div>
 				</div>
-			</div>
-					
+
 
 
 				<!-- PANEL KEGIATAN -->
@@ -184,7 +176,7 @@
 								</div>
 							</div>
 						</div>
-					
+
 					</div>
 					<div class="col-md-3">
 						<div class="panel panel-default" style="height: 500px">
@@ -202,73 +194,73 @@
 
 				<!-- FOOTER -->
 				<footer class="footer">
-			      <div class="container">
-			      	<h3 class="text-muted">Kejaksaan Republik Indonesia</h3>
-			      	<div class="row">
-				      	<div class="col-sm-3 col-md-3 text-muted">
-	                 	 <!-- .weight -->
-	                     <div class="weight">
-	                        <strong>About Us</strong>
-	                        <p>Lorem ipsum dolor sit amet, onsectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-	                     </div>
-	                      <!--/.weight -->
-	                  </div>
-	                  <div class="col-sm-2 col-md-2 text-muted">
-	                  	 <!-- .weight -->
-	                     <div class="weight">
-	                        <strong>Profil</strong>
-	                        <ul>
-	                           <li><a href="#">Latar Belakang</a></li>
-	                           <li><a href="#">Tentang T4</a></li>
-	                           <li><a href="#">Visi dan Misi</a></li>
-	                           <li><a href="#">Tugas dan Wewenang</a></li>
-	                           <li><a href="#">Mekanisme Bekerja</a></li>
-	                        </ul>
-	                     </div>
-	                     <!-- /.weight -->
-	                  </div>
-	                  <div class="col-sm-2 col-md-2 text-muted">
-	                  	<!-- .weight -->
-	                     <div class="weight">
-	                        <strong>Kegiatan</strong>
-	                        <ul>
-	                           <li><a href="#">Kegiatan Walman</a></li>
-	                           <li><a href="#">TP4 D</a></li>
-	                           <li><a href="#">TP4 P</a></li>
-	                        </ul>
-	                     </div>
-	                     <!-- /.weight -->
-	                  </div>
+					<div class="container">
+						<h3 class="text-muted">Kejaksaan Republik Indonesia</h3>
+						<div class="row">
+							<div class="col-sm-3 col-md-3 text-muted">
+								<!-- .weight -->
+								<div class="weight">
+									<strong>About Us</strong>
+									<p>Lorem ipsum dolor sit amet, onsectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+								</div>
+								<!--/.weight -->
+							</div>
+							<div class="col-sm-2 col-md-2 text-muted">
+								<!-- .weight -->
+								<div class="weight">
+									<strong>Profil</strong>
+									<ul>
+										<li><a href="#">Latar Belakang</a></li>
+										<li><a href="#">Tentang T4</a></li>
+										<li><a href="#">Visi dan Misi</a></li>
+										<li><a href="#">Tugas dan Wewenang</a></li>
+										<li><a href="#">Mekanisme Bekerja</a></li>
+									</ul>
+								</div>
+								<!-- /.weight -->
+							</div>
+							<div class="col-sm-2 col-md-2 text-muted">
+								<!-- .weight -->
+								<div class="weight">
+									<strong>Kegiatan</strong>
+									<ul>
+										<li><a href="#">Kegiatan Walman</a></li>
+										<li><a href="#">TP4 D</a></li>
+										<li><a href="#">TP4 P</a></li>
+									</ul>
+								</div>
+								<!-- /.weight -->
+							</div>
 
-	                  <div class="col-sm-2 col-md-2 text-muted">
-	                  	<!-- .weight -->
-	                     <div class="weight">
-	                        <strong>Kemitraan</strong>
-	                        <ul>
-	                           <li><a href="#">Kementrian</a></li>
-	                           <li><a href="#">BUMN</a></li>
-	                           <li><a href="#">BUMD</a></li>
-	                           <li><a href="#">Pemerintah Provinsi</a></li>
-	                           <li><a href="#">Pemerintah Kota / Daerah</a></li>
-	                        </ul>
-	                     </div>
-	                     <!-- /.weight -->
-	                  </div>
-	                  <div class="col-sm-3 col-md-3  text-muted">
-	                  <!-- .weight -->
-	                     <div class="weight">
-	                        <strong>Kontak Kami</strong>
-	                        <p>PUSAT PENERANGAN HUKUM  KEJAKSAAN AGUNG R.I</p>
-	                        <p>Tel: 1234 - 5678 - 9012<br/>Email: support@Prolaw.com<br/>Working Hours: 8:00 a.m - 17:00 a.m</p>
-	                     </div>
-	                    <!-- /.weight -->
-	                  </div>
-	               </div>
-			      		
-			      	<hr>
-			        <p class="text-muted">@2017 Kejaksaan Republik Indonesia</p>
-			      </div>
-			    </footer>
+							<div class="col-sm-2 col-md-2 text-muted">
+								<!-- .weight -->
+								<div class="weight">
+									<strong>Kemitraan</strong>
+									<ul>
+										<li><a href="#">Kementrian</a></li>
+										<li><a href="#">BUMN</a></li>
+										<li><a href="#">BUMD</a></li>
+										<li><a href="#">Pemerintah Provinsi</a></li>
+										<li><a href="#">Pemerintah Kota / Daerah</a></li>
+									</ul>
+								</div>
+								<!-- /.weight -->
+							</div>
+							<div class="col-sm-3 col-md-3  text-muted">
+								<!-- .weight -->
+								<div class="weight">
+									<strong>Kontak Kami</strong>
+									<p>PUSAT PENERANGAN HUKUM  KEJAKSAAN AGUNG R.I</p>
+									<p>Tel: 1234 - 5678 - 9012<br/>Email: support@Prolaw.com<br/>Working Hours: 8:00 a.m - 17:00 a.m</p>
+								</div>
+								<!-- /.weight -->
+							</div>
+						</div>
+
+						<hr>
+						<p class="text-muted">@2017 Kejaksaan Republik Indonesia</p>
+					</div>
+				</footer>
 
 
 			</div>
