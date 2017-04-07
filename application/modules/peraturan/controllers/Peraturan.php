@@ -14,6 +14,28 @@ class Peraturan extends CI_Controller {
         parent::__construct();
     }
 
+    public function index(){
+    	$this->template->load('template','index');
+    }
+
+    public function pp(){
+    	$this->template->load('template','index');
+    }
+    public function kepres(){
+    	$this->template->load('template','index');
+    }
+    public function perda(){
+    	$this->template->load('template','index');
+    }
+    public function permen(){
+    	$this->template->load('template','index');
+    }
+    public function perja(){
+    	$this->template->load('template','index');
+    }
+    public function bumn(){
+    	$this->template->load('template','index');
+    }
 
 }
 

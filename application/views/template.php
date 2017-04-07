@@ -43,52 +43,52 @@
             <a href="#" class="x-navigation-control"></a>
         </li>
         <li>
-            <a href="#">
+            <a href="<?php echo base_url()?>portal">
                 <span class="xn-text">DASHBOARD</span>
             </a>
         </li>
         <li class="xn-openable">
             <a href="#"><span class="xn-text">PROFIL</span></a>
             <ul>
-                <li><a href="#">LATAR BELAKANG</a></li>
-                <li><a href="#">TENTANG TP4</a></li>
-                <li><a href="#">VISI DAN MISI</a></li>
-                <li><a href="#">TUGAS DAN WEWENANG</a></li>
-                <li><a href="#">MEKANISME BEKERJA</a></li>
+                <li><a href="<?php echo base_url()?>profil/latar_belakang">LATAR BELAKANG</a></li>
+                <li><a href="<?php echo base_url()?>profil/tentang_tp4">TENTANG TP4</a></li>
+                <li><a href="<?php echo base_url()?>profil/visi_misi">VISI DAN MISI</a></li>
+                <li><a href="<?php echo base_url()?>profil/tugas_wewenang">TUGAS DAN WEWENANG</a></li>
+                <li><a href="<?php echo base_url()?>profil/mekanisme">MEKANISME BEKERJA</a></li>
             </ul>
         </li>
         <li class="xn-openable">
             <a href="#"><span class="xn-text">KEGIATAN</span></a>
             <ul>
-                <li><a href="#">KEGIATAN WALMAN</a></li>
-                <li><a href="#">TP4 D</a></li>
-                <li><a href="#">TP4 P</a></li>
+                <li><a href="<?php echo base_url()?>kegiatan/walman">KEGIATAN WALMAN</a></li>
+                <li><a href="<?php echo base_url()?>kegiatan/tp4d">TP4 D</a></li>
+                <li><a href="<?php echo base_url()?>kegiatan/tp4p">TP4 P</a></li>
             </ul>
         </li>
         <li class="xn-openable">
             <a href="#"><span class="xn-text">PERATURAN</span></a>
             <ul>
-                <li><a href="#">UU</a></li>
-                <li><a href="#">PP</a></li>
-                <li><a href="#">KEPRES</a></li>
-                <li><a href="#">PERDA</a></li>
-                <li><a href="#">PERMEN</a></li>
-                <li><a href="#">PERJA</a></li>
-                <li><a href="#">BUMN</a></li>
+                <li><a href="<?php echo base_url()?>peraturan/uu">UU</a></li>
+                <li><a href="<?php echo base_url()?>peraturan/pp">PP</a></li>
+                <li><a href="<?php echo base_url()?>peraturan/kepres">KEPRES</a></li>
+                <li><a href="<?php echo base_url()?>peraturan/perda">PERDA</a></li>
+                <li><a href="<?php echo base_url()?>peraturan/permen">PERMEN</a></li>
+                <li><a href="<?php echo base_url()?>peraturan/perja">PERJA</a></li>
+                <li><a href="<?php echo base_url()?>peraturan/bumn">BUMN</a></li>
             </ul>
         </li>
         <li class="xn-openable">
             <a href="#"><span class="xn-text">KEMITRAAN</span></a>
             <ul>
-                <li><a href="#">KEMENTRIAN</a></li>
-                <li><a href="#">BUMN</a></li>
-                <li><a href="#">BMUD</a></li>
-                <li><a href="#">PEMERINTAH PROVINSI</a></li>
-                <li><a href="#">PEMERINTAH KOTA / DAERAH</a></li>
+                <li><a href="<?php echo base_url()?>kemitraan/kementrian">KEMENTRIAN</a></li>
+                <li><a href="<?php echo base_url()?>kemitraan/bumn">BUMN</a></li>
+                <li><a href="<?php echo base_url()?>kemitraan/bumd">BMUD</a></li>
+                <li><a href="<?php echo base_url()?>kemitraan/pemerintah_profinsi">PEMERINTAH PROVINSI</a></li>
+                <li><a href="<?php echo base_url()?>kemitraan/pemerintah_kota_daerah">PEMERINTAH KOTA / DAERAH</a></li>
             </ul>
         </li>
-        <li><a href="#">PROGRAM KERJA</a></li>
-        <li><a href="#">LAPORAN</a></li>
+        <li><a href="<?php echo base_url()?>program_kerja">PROGRAM KERJA</a></li>
+        <li><a href="<?php echo base_url()?>laporan">LAPORAN</a></li>
         <li class="pull-right">
             <a href="#">LOG IN <i class="fa fa-sign-in"></i></a>
         </li>

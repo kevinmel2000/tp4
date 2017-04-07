@@ -14,6 +14,25 @@ class Kemitraan extends CI_Controller {
         parent::__construct();
     }
 
+    public function index(){
+    	$this->template->load('template','index');
+    }
+
+    public function bumn(){
+    	$this->template->load('template','index');
+    }
+
+    public function bumd(){
+    	$this->template->load('template','index');
+    }
+
+    public function pemerintah_profinsi(){
+    	$this->template->load('template','index');
+    }
+
+    public function pemerintah_kota_daerah(){
+    	$this->template->load('template','index');
+    }
 
 }
 

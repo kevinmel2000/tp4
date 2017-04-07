@@ -14,6 +14,16 @@ class Kegiatan extends CI_Controller {
         parent::__construct();
     }
 
+    public function index(){
+    	$this->template->load('template','index');
+    }
 
+    public function tp4d(){
+    	$this->template->load('template','index');
+    }
+
+    public function tp4p(){
+    	$this->template->load('template','index');
+    }
 }
 
