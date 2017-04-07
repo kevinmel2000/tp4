@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5674fd9d-e3e2-4df0-8543-106f0f34a45f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/modules/kegiatan/controllers/Kegiatan.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/modules/kemitraan/controllers/Kemitraan.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/modules/laporan/controllers/Laporan.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/modules/peraturan/controllers/Peraturan.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/modules/portal/views/lama/coba.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/modules/portal/views/portal.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/modules/profile/controllers/Profile.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/modules/programkerja/controllers/ProgramKerja.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/template.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/plugins/jquery.mousewheel.min.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/views/rumah/terasDepan.php" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/application/modules/portal/views/index.html" afterPath="$PROJECT_DIR$/application/modules/portal/views/lama/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/application/modules/portal/views/index.php" afterPath="$PROJECT_DIR$/application/modules/portal/views/lama/index.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/application/modules/portal/views/index2.php" afterPath="$PROJECT_DIR$/application/modules/portal/views/lama/index2.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/application/modules/portal/views/oka1.php" afterPath="$PROJECT_DIR$/application/modules/portal/views/lama/oka1.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/application/modules/portal/views/oka2.php" afterPath="$PROJECT_DIR$/application/modules/portal/views/lama/oka2.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/application/modules/portal/views/oka3.php" afterPath="$PROJECT_DIR$/application/modules/portal/views/lama/oka3.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/application/modules/portal/views/oka4.php" afterPath="$PROJECT_DIR$/application/modules/portal/views/lama/oka4.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/application/modules/portal/views/permohonan.php" afterPath="$PROJECT_DIR$/application/modules/portal/views/lama/permohonan.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/portal/controllers/Portal.php" afterPath="$PROJECT_DIR$/application/modules/portal/controllers/Portal.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/theme-default.css" afterPath="$PROJECT_DIR$/assets/css/theme-default.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/portal/views/portal.php" afterPath="$PROJECT_DIR$/application/modules/portal/views/portal.php" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -43,8 +23,8 @@
       <file leaf-file-name="portal.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/modules/portal/views/portal.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="90" column="47" lean-forward="false" selection-start-line="90" selection-start-column="47" selection-end-line="90" selection-end-column="47" />
+            <state relative-caret-position="343">
+              <caret line="134" column="58" lean-forward="false" selection-start-line="134" selection-start-column="58" selection-end-line="134" selection-end-column="58" />
               <folding>
                 <element signature="e#6#86#0#PHP" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -64,6 +44,14 @@
                 <element signature="e#4017#4023#0#HTML" expanded="true" />
                 <element signature="e#4023#4029#0#HTML" expanded="true" />
                 <element signature="e#4029#4035#0#HTML" expanded="true" />
+                <element signature="e#4659#4666#0#HTML" expanded="true" />
+                <element signature="e#4993#4999#0#HTML" expanded="true" />
+                <element signature="e#4999#5005#0#HTML" expanded="true" />
+                <element signature="e#5005#5011#0#HTML" expanded="true" />
+                <element signature="e#5598#5605#0#HTML" expanded="true" />
+                <element signature="e#5932#5938#0#HTML" expanded="true" />
+                <element signature="e#5938#5944#0#HTML" expanded="true" />
+                <element signature="e#5944#5950#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -91,7 +79,7 @@
         <entry file="file://$PROJECT_DIR$/application/modules/portal/views/lama/oka1.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="246">
-              <caret line="116" column="63" lean-forward="true" selection-start-line="116" selection-start-column="48" selection-end-line="116" selection-end-column="63" />
+              <caret line="116" column="63" lean-forward="false" selection-start-line="116" selection-start-column="48" selection-end-line="116" selection-end-column="63" />
               <folding />
             </state>
           </provider>
@@ -374,12 +362,12 @@
       <updated>1491452330863</updated>
       <workItem from="1491452333079" duration="49000" />
       <workItem from="1491453448533" duration="2354000" />
-      <workItem from="1491462840164" duration="7352000" />
+      <workItem from="1491462840164" duration="8313000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9755000" />
+    <option name="totallyTimeSpent" value="10716000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="745" extended-state="0" />
@@ -556,7 +544,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -564,7 +552,7 @@
     <entry file="file://$PROJECT_DIR$/application/modules/portal/views/lama/oka1.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="246">
-          <caret line="116" column="63" lean-forward="true" selection-start-line="116" selection-start-column="48" selection-end-line="116" selection-end-column="63" />
+          <caret line="116" column="63" lean-forward="false" selection-start-line="116" selection-start-column="48" selection-end-line="116" selection-end-column="63" />
           <folding />
         </state>
       </provider>
@@ -587,8 +575,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/modules/portal/views/portal.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="90" column="47" lean-forward="false" selection-start-line="90" selection-start-column="47" selection-end-line="90" selection-end-column="47" />
+        <state relative-caret-position="343">
+          <caret line="134" column="58" lean-forward="false" selection-start-line="134" selection-start-column="58" selection-end-line="134" selection-end-column="58" />
           <folding>
             <element signature="e#6#86#0#PHP" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -608,6 +596,14 @@
             <element signature="e#4017#4023#0#HTML" expanded="true" />
             <element signature="e#4023#4029#0#HTML" expanded="true" />
             <element signature="e#4029#4035#0#HTML" expanded="true" />
+            <element signature="e#4659#4666#0#HTML" expanded="true" />
+            <element signature="e#4993#4999#0#HTML" expanded="true" />
+            <element signature="e#4999#5005#0#HTML" expanded="true" />
+            <element signature="e#5005#5011#0#HTML" expanded="true" />
+            <element signature="e#5598#5605#0#HTML" expanded="true" />
+            <element signature="e#5932#5938#0#HTML" expanded="true" />
+            <element signature="e#5938#5944#0#HTML" expanded="true" />
+            <element signature="e#5944#5950#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
