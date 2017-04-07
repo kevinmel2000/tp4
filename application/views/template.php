@@ -201,7 +201,13 @@
 <script type="text/javascript" src="<?php echo base_url() ?>assets/js/plugins.js"></script>
 <script type="text/javascript" src="<?php echo base_url() ?>assets/js/actions.js"></script>
 <!--    End import JS   -->
-
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $('label.tree-toggler').click(function () {
+        $(this).parent().children('ul.tree').toggle(300);
+      });   
+    });
+  </script>
 
 </body>
 </html>
