@@ -15,7 +15,7 @@ class Laporan extends CI_Controller {
     }
 
     public function index(){
-    	$this->template->load('template','index');
+    	$this->template->load('template','laporan');
     }
 
 

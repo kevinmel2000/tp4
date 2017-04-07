@@ -18,9 +18,21 @@ class Kemitraan extends CI_Controller {
     	$this->template->load('template','index');
     }
 
-    public function bumn(){
-    	$this->template->load('template','index');
+    public function kementrian(){
+        $this->template->load('template','kementrian');
     }
+
+    public function bumn(){
+        $this->template->load('template','bumn');
+    }
+
+
+
+
+
+    // public function bumn(){
+    // 	$this->template->load('template','index');
+    // }
 
     public function bumd(){
     	$this->template->load('template','index');
