@@ -18,6 +18,10 @@ class Peraturan extends CI_Controller {
     	$this->template->load('template','index');
     }
 
+    public function uu(){
+        $this->template->load('template','uu');
+    }
+
     public function pp(){
     	$this->template->load('template','index');
     }
