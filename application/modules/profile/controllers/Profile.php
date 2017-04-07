@@ -14,17 +14,21 @@ class Profile extends CI_Controller {
         parent::__construct();
     }
 
+
     public function index(){
     	$this->template->load('template','index');
     }
 
+    public function latar_belakang(){
+        $this->template->load('template','index');
+    }
 
     public function tentang_tp4(){
-    	$this->template->load('template','index');
+    	$this->template->load('template','tentang_tp4');
     }
 
     public function visi_misi(){
-    	$this->template->load('template','index');
+    	$this->template->load('template','visi_misi');
     }
 
     public function tugas_wewenang(){
