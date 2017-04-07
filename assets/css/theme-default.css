@@ -3889,7 +3889,7 @@ a.list-group-item:focus {
   box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
 }
 .panel.panel-default {
-  border-top-color: #91DE00;
+  /*border-top-color: #91DE00;*/
   border-top-width: 1px;
 }
 .panel.panel-primary {
@@ -11224,9 +11224,9 @@ li.ext_zip {
   position: relative;
   bottom: 0;
   width: 100%;
+
   /* Set the fixed height of the footer here */
-  height: 310px;
-  ;
+  height: 340px;
 }
 
 .container .text-muted {

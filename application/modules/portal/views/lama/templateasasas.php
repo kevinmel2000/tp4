@@ -9,14 +9,6 @@
 	<!-- CSS INCLUDE -->
 	<link rel="stylesheet" type="text/css" id="theme" href="<?php echo base_url() ?>assets/css/theme-default.css" />
 	<link rel="stylesheet" type="text/css" id="theme" href="<?php echo base_url() ?>assets/builder/css/builder.css" />
-	<!-- EOF CSS INCLUDE -->
-	<style type="text/css">
-		.footer ul li a{
-			color: #000000;
-			text-decoration: none;
-		}
-
-	</style>
 </head>
 <body class="">
 	<div class="page-container page-navigation-top page-navigation-top-custom">
@@ -86,6 +78,8 @@
 				<li class="active">Active</li>
 			</ul> -->
 
+
+
 			<!-- Content -->
 			<div class="page-content-wrap">
 				<div class="panel panel-default">
@@ -106,11 +100,6 @@
 					<div class="col-md-9">
 						<div class="col-md-4">
 							<div class="panel panel-default">
-								<div class="panel-heading" style="background: #9FDA01">
-									<div class="panel-title-box">
-										<h3>KEGIATAN</h3>
-									</div>
-								</div>
 								<div class="panel-body padding-0">
 									<div class="chart-holder" id="dashboard-line-1" style="height: 200px;"></div>
 								</div>
@@ -197,12 +186,11 @@
 				<br>
 			      <div class="container">
 			      	<h3 class="text-muted"  style="color: #000000 !important"><b>Kejaksaan Republik Indonesia</b></h3>
-			      	<br>
 			      	<div class="row" style="color: #000000 !important">
 				      	<div class="col-sm-3 col-md-3">
 	                 	 <!-- .weight -->
 	                     <div class="weight">
-	                        <strong>About Us</strong>
+	                        <strong>Tentang TP4</strong>
 	                        <p>Lorem ipsum dolor sit amet, onsectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
 	                     </div>
 	                      <!--/.weight -->
@@ -253,6 +241,7 @@
 	                     <div class="weight">
 	                        <strong>Kontak Kami</strong>
 	                        <p>PUSAT PENERANGAN HUKUM  KEJAKSAAN AGUNG R.I</p>
+	                        <p>Jl. Sultan Hasanuddin No.1 Kebayoran Baru Jakarta Selatan - Indonesia</p>
 	                        <p>Tel: 1234 - 5678 - 9012<br/>Email: support@Prolaw.com<br/>Working Hours: 8:00 a.m - 17:00 a.m</p>
 	                     </div>
 	                    <!-- /.weight -->
