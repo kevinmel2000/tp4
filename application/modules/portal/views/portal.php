@@ -132,14 +132,20 @@
         </div>
     </div>
     <div class="col-md-3">
-        <div class="panel panel-default" style="height: 660px">
+        <div class="panel panel-default">
             <div class="panel-heading">
-                <div class="panel-title-box">
-                    <h3>Kemitraan</h3>
-                </div>
+                <h3 class="panel-title">Kemitraan</h3>
             </div>
-            <div class="panel-body">
-                Test
+            <div class="panel-body list-group list-group-contacts">
+                <a href="#" class="list-group-item">
+                    <span class="contacts-title">John Doe</span>
+                </a>
+                <a href="#" class="list-group-item">
+                    <span class="contacts-title">Dmitry Ivaniuk</span>
+                </a>
+                <a href="#" class="list-group-item">
+                    <span class="contacts-title">Nadia Ali</span>
+                </a>
             </div>
         </div>
     </div>

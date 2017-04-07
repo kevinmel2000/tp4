@@ -107,6 +107,15 @@
 </div>
 <!-- EndIklan tulisan berjalan-->
 
+<div class="row">
+    <div class="panel panel-default">
+        <div class="panel-body padding-0">
+            <div class="chart-holder" id="dashboard-line-1" style="height: 250px;"></div>
+        </div>
+    </div>
+</div>
+
+
 
 <div class="page-content-wrap">
     <?php echo $contents; ?>
