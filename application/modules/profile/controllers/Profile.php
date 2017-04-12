@@ -24,7 +24,7 @@ class Profile extends CI_Controller {
     }
 
     public function tentang_tp4(){
-    	$this->template->load('template','tentang_tp4');
+    	$this->template->load('template','index');
     }
 
     public function visi_misi(){

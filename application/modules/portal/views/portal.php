@@ -7,14 +7,6 @@
  */
 ?>
 
-
-<div class="row">
-    <div class="panel panel-default">
-        <div class="panel-body padding-0">
-            <div class="chart-holder" id="dashboard-line-1" style="height: 250px;"></div>
-        </div>
-    </div>
-</div>
 <div class="row">
     <div class="col-md-3">
         <div class="row">
@@ -134,17 +126,31 @@
     <div class="col-md-3">
         <div class="panel panel-default">
             <div class="panel-heading">
-                <h3 class="panel-title">Kemitraan</h3>
+                <h3 class="panel-title"><strong>FORM INPUT PERMOHONAN</strong></h3>
+            </div>
+            <div class="panel-body">
+                <img src="<?php echo base_url()?>assets/gambar/input-permohonan-baru.png" alt="" style="width: 100%">
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title"><strong>KEMITRAAN</strong></h3>
             </div>
             <div class="panel-body list-group list-group-contacts">
                 <a href="#" class="list-group-item">
-                    <span class="contacts-title">John Doe</span>
+                    <span class="contacts-title">KEMENTRIAN</span>
                 </a>
                 <a href="#" class="list-group-item">
-                    <span class="contacts-title">Dmitry Ivaniuk</span>
+                    <span class="contacts-title">BUMN</span>
                 </a>
                 <a href="#" class="list-group-item">
-                    <span class="contacts-title">Nadia Ali</span>
+                    <span class="contacts-title">BUMD</span>
+                </a>
+                <a href="#" class="list-group-item">
+                    <span class="contacts-title">PEMERINTA PROVINSI</span>
+                </a>
+                <a href="#" class="list-group-item">
+                    <span class="contacts-title">PEMERINTAH DAERAH</span>
                 </a>
             </div>
         </div>

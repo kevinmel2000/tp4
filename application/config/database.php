@@ -94,3 +94,14 @@ $db['default'] = array(
 	'failover' => array(),
 	'save_queries' => TRUE
 );
+
+//$db['oracle'] = array(
+//    'dsn'	=> '',
+//    'hostname' => '(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.10.24)(PORT=1521))(CONNECT_DATA=(SID=CISQA)))',
+//    'username' => 'tp4',
+//    'password' => 'tp4',
+//    'database' => '',
+//    'dbdriver' => 'oci8'
+//);
+
+

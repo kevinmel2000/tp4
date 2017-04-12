@@ -17,6 +17,7 @@ class ProgramKerja extends CI_Controller {
     public function index()
     {
     	$this->template->load('template', 'programkerja');
+//        $this->template->load('template','index');
     }
 
 }

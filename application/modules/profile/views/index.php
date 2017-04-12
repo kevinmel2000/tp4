@@ -6,49 +6,59 @@
  */
 
 ?>
+<!-- START BREADCRUMB -->
+<ul class="breadcrumb">
+    <li><a href="#">Profil</a></li>
+    <li class="active">Latar Belakang</li>
+</ul>
+<!-- END BREADCRUMB -->
 
+<!-- START CONTENT -->
 <div class="row">
-	<div class="col-md-12 ">
-		<div class="panel-heading">
-			<div class="panel-title-box">
-				<br><center><h3>LATAR BELAKANG</center></h3>
-			</div>
-		</div>
-		<div class="panel-body profil">
-			<div class="col-md-6">
-				<div class="panel panel-info">
-					<div class="panel-heading">
-						<h3 class="panel-title">PENGERTIAN KEJAKSAAN</h3>
-					</div>
-					<div class="panel-body">
-						<img src="https://www.kejaksaan.go.id/uplimg/Image/ja.gif" alt="Gambar satu" style=" width:520px;
-						height:200px; margin-bottom: 10px">
-
-						<p>Kejaksaan R.I. adalah lembaga negara yang melaksanakan kekuasaan negara, khususnya di bidang penuntutan. Sebagai badan yang berwenang dalam penegakan hukum dan keadilan, Kejaksaan dipimpin oleh Jaksa Agung yang dipilih oleh dan bertanggung jawab kepada Presiden. Kejaksaan Agung, Kejaksaan Tinggi, dan Kejaksaan Negeri merupakan kekuasaan negara khususnya dibidang penuntutan, dimana semuanya merupakan satu kesatuan yang utuh yang tidak dapat dipisahkan.</p>
-
-						<p>Mengacu pada Undang-Undang No. 16 Tahun 2004 yang menggantikan UU No. 5 Tahun 1991 tentang Kejaksaan R.I., Kejaksaan sebagai salah satu lembaga penegak hukum dituntut untuk lebih berperan dalam menegakkan supremasi hukum, perlindungan kepentingan umum, penegakan hak asasi manusia, serta pemberantasan Korupsi, Kolusi, dan Nepotisme (KKN). Di dalam UU Kejaksaan yang baru ini, Kejaksaan RI sebagai lembaga negara yang melaksanakan kekuasaan negara di bidang penuntutan harus melaksanakan fungsi, tugas, dan wewenangnya secara merdeka, terlepas dari pengaruh kekuasaan pemerintah dan pengaruh kekuasaan lainnya (Pasal 2 ayat 2 Undang-Undang Nomor 16 Tahun 2004).</p>
-
-					</div>
-				</div>
-			</div>
-			<div class="col-md-6">
-				<div class="panel panel-info">
-					<div class="panel-heading">
-						<h6 class="panel-title">SEJARAH</h6>
-					</div>
-					<div class="panel-body">
-
-						<p><strong>Sebelum Reformasi</strong></p>
-						<p>Istilah Kejaksaan sebenarnya sudah ada sejak lama di Indonesia. Pada zaman kerajaan Hindu-Jawa di Jawa Timur, yaitu pada masa Kerajaan Majapahit, istilah dhyaksa, adhyaksa, dan dharmadhyaksa sudah mengacu pada posisi dan jabatan tertentu di kerajaan. Istilah-istilah ini berasal dari bahasa kuno, yakni dari kata-kata yang sama dalam Bahasa Sansekerta.</p>
-
-						<p>Pada masa pendudukan Belanda, badan yang ada relevansinya dengan jaksa dan Kejaksaan antara lain adalah Openbaar Ministerie. Lembaga ini yang menitahkan pegawai-pegawainya berperan sebagai Magistraat dan Officier van Justitie di dalam sidang Landraad (Pengadilan Negeri), Jurisdictie Geschillen (Pengadilan Justisi ) dan Hooggerechtshof (Mahkamah Agung ) dibawah perintah langsung dari Residen / Asisten Residen.</p> 
-
-						<p>Fungsi sebagai alat penguasa itu akan sangat kentara, khususnya dalam menerapkan delik-delik yang berkaitan dengan hatzaai artikelen yang terdapat dalam Wetboek van Strafrecht (WvS).</p> 
-
-						<p>Peranan Kejaksaan sebagai satu-satunya lembaga penuntut secara resmi difungsikan pertama kali oleh Undang-Undang pemerintah zaman pendudukan tentara Jepang No. 1/1942, yang kemudian diganti oleh Osamu Seirei No.3/1942, No.2/1944 dan No.49/1944. Eksistensi kejaksaan itu berada pada semua jenjang pengadilan, yakni sejak Saikoo Hoooin (pengadilan agung), Koootooo Hooin (pengadilan tinggi) dan Tihooo Hooin (pengadilan negeri).</p>
-					</div>
-				</div>
-			</div>
-		</div>     
-	</div>
+    <div class="col-md-12">
+        <div class="panel panel-default">
+            <div class="panel-body posts">
+                <div class="post-item">
+                    <div class="post-title">
+                        <strong>Latar Belakang</strong>
+                    </div>
+                    <div class="post-date"><span class="fa fa-calendar"></span> October 23, 2015 / <a href="#">Oleh
+                            Admin</a></div>
+                    <div class="post-text">
+                        <div class="img" style="align-content: center">
+                            <img src="<?php echo base_url() ?>assets/slider/slider/2.jpg" style="width: 100%">
+                        </div>
+                        <br><br>
+                        <div class="content" align="justify">
+                            <p>Nawa Cita yg dijadikan pedoman dlm penyelenggaraan pemerintah dan pembangunan hendaknya
+                                dapat menghadirkan kembali negara untuk melindungi segenap bangsa dan memberikan rasa
+                                aman pada seluruh warga negara dan membangun Indonesia dimulai dari pinggiran dengan
+                                memperkuat daerah-daerah dan desa dalam kerangka negara kesatuan serta menolak negara
+                                lemah dengan melakukan reformasi sistem dan penegakan hukum yang bebas korupsi,
+                                bermartabat dan terpercaya.</p>
+                            <p>Penyerapan anggaran k/l rendah, Stigma kriminalisasi kebijakan Dan Pejabat birokrasi (dan
+                                pebisnis) takut, ragu-ragu dalam mengambil keputusan.</p>
+                            <p>Pidato Presiden RI pada upacara HBA Ke-55 tgl 22 Juli 2015 dan Di Istana Bogor Agustus
+                                2015 yg penekanannya dlm pemberantasan Korupsi penegakan hukum harus dapat meningkatkan
+                                kesejahteraan rakyat dan menjaga kelancaran program pembangunan sehingga Kejaksaan RI
+                                memandang perlu memberikan pengawalan dan pengamanan kepada pejabat pemerintah terkait
+                                dlm hal akselerasi pembangunan dan program-program strategis pem. Nas.</p>
+                            <p>Kejaksaan RI sebagai lembaga Gakkum mendukung keberhasilan penyelenggaraan pemerintahan
+                                dan pembangunan nas. Di pusat maupun daerah melalui pengawalan dan pengamanan baik dlm
+                                giat perencanaan, pelaksanaan maupun pemanfaatan hasil pembangunan termasuk dlm upaya
+                                pencegahaan timbulnya penyimpangan dan kerugian negara.</p>
+                            <p>Diperlukan komitmen kejaksaan utk berperan langsung dlm mendukung keberhasilan
+                                program-program strategis bangnas di segala bid. yang dilaks pemerintah pusat dan
+                                pemerintah daerah.</p>
+                            <p>TP4 akan fokus pada pendekatan preventif, melalui upaya-upaya yang dilakukan untuk
+                                memastikan agar pemberantasan korupsi serta sejalan dengan gakkum secara efektif dan
+                                optimal demi kepentingan rakyat.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
+<!-- END CONTENT -->
+

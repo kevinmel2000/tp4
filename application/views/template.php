@@ -10,6 +10,7 @@
 
     <!-- CSS INCLUDE -->
     <link rel="stylesheet" type="text/css" id="theme" href="<?php echo base_url() ?>assets/css/theme-default.css"/>
+    <link rel="stylesheet" type="text/css" id="theme" href="<?php echo base_url() ?>assets/slider/jquery.bxslider.css"/>
     <link rel="stylesheet" type="text/css" id="theme" href="<?php echo base_url() ?>assets/builder/css/builder.css"/>
     <!-- EOF CSS INCLUDE -->
 
@@ -50,17 +51,17 @@
         <li class="xn-openable">
             <a href="#"><span class="xn-text">PROFIL</span></a>
             <ul>
-                <li><a href="<?php echo base_url()?>profil/latar_belakang">LATAR BELAKANG</a></li>
-                <li><a href="<?php echo base_url()?>profil/tentang_tp4">TENTANG TP4</a></li>
-                <li><a href="<?php echo base_url()?>profil/visi_misi">VISI DAN MISI</a></li>
-                <li><a href="<?php echo base_url()?>profil/tugas_wewenang">TUGAS DAN WEWENANG</a></li>
-                <li><a href="<?php echo base_url()?>profil/mekanisme">MEKANISME BEKERJA</a></li>
+                <li><a href="<?php echo base_url()?>profile/">LATAR BELAKANG</a></li>
+                <li><a href="<?php echo base_url()?>profile/tentang_tp4">TENTANG TP4</a></li>
+                <li><a href="<?php echo base_url()?>profile/visi_misi">VISI DAN MISI</a></li>
+                <li><a href="<?php echo base_url()?>profile/tugas_wewenang">TUGAS DAN WEWENANG</a></li>
+                <li><a href="<?php echo base_url()?>profile/mekanisme">MEKANISME BEKERJA</a></li>
             </ul>
         </li>
         <li class="xn-openable">
             <a href="#"><span class="xn-text">KEGIATAN</span></a>
             <ul>
-                <li><a href="<?php echo base_url()?>kegiatan/walman">KEGIATAN WALMAN</a></li>
+                <li><a href="<?php echo base_url()?>kegiatan/">KEGIATAN WALMAN</a></li>
                 <li><a href="<?php echo base_url()?>kegiatan/tp4d">TP4 D</a></li>
                 <li><a href="<?php echo base_url()?>kegiatan/tp4p">TP4 P</a></li>
             </ul>
@@ -68,7 +69,7 @@
         <li class="xn-openable">
             <a href="#"><span class="xn-text">PERATURAN</span></a>
             <ul>
-                <li><a href="<?php echo base_url()?>peraturan/uu">UU</a></li>
+                <li><a href="<?php echo base_url()?>peraturan/">UU</a></li>
                 <li><a href="<?php echo base_url()?>peraturan/pp">PP</a></li>
                 <li><a href="<?php echo base_url()?>peraturan/kepres">KEPRES</a></li>
                 <li><a href="<?php echo base_url()?>peraturan/perda">PERDA</a></li>
@@ -80,14 +81,14 @@
         <li class="xn-openable">
             <a href="#"><span class="xn-text">KEMITRAAN</span></a>
             <ul>
-                <li><a href="<?php echo base_url()?>kemitraan/kementrian">KEMENTRIAN</a></li>
+                <li><a href="<?php echo base_url()?>kemitraan/">KEMENTRIAN</a></li>
                 <li><a href="<?php echo base_url()?>kemitraan/bumn">BUMN</a></li>
                 <li><a href="<?php echo base_url()?>kemitraan/bumd">BMUD</a></li>
                 <li><a href="<?php echo base_url()?>kemitraan/pemerintah_profinsi">PEMERINTAH PROVINSI</a></li>
                 <li><a href="<?php echo base_url()?>kemitraan/pemerintah_kota_daerah">PEMERINTAH KOTA / DAERAH</a></li>
             </ul>
         </li>
-        <li><a href="<?php echo base_url()?>program_kerja">PROGRAM KERJA</a></li>
+        <li><a href="<?php echo base_url()?>programkerja">PROGRAM KERJA</a></li>
         <li><a href="<?php echo base_url()?>laporan">LAPORAN</a></li>
         <li class="pull-right">
             <a href="#">LOG IN <i class="fa fa-sign-in"></i></a>
@@ -108,11 +109,11 @@
 <!-- EndIklan tulisan berjalan-->
 
 <div class="row">
-    <div class="panel panel-default">
-        <div class="panel-body padding-0">
-            <div class="chart-holder" id="dashboard-line-1" style="height: 250px;"></div>
-        </div>
-    </div>
+    <ul class="bxslider">
+        <li><img src="<?php echo base_url()?>assets/slider/slider/s1.jpg" style="width: 100%"/></li>
+        <li><img src="<?php echo base_url()?>assets/slider/slider/s1.jpg" style="width: 100%"/></li>
+        <li><img src="<?php echo base_url()?>assets/slider/slider/s1.jpg" style="width: 100%"/></li>
+    </ul>
 </div>
 
 
@@ -182,7 +183,7 @@
             </div>
 
             <hr>
-            <p class="text-muted">@2017 Kejaksaan Republik Indonesia</p>
+            <p class="text-muted">@2017 Tim Pengawal dan Pengaman Pemerintah dan Pembangunan (TP4)</p>
         </div>
     </footer>
 </div>
@@ -200,12 +201,14 @@
 <script type="text/javascript" src="<?php echo base_url() ?>assets/js/plugins/icheck/icheck.min.js"></script>
 <script type="text/javascript" src="<?php echo base_url() ?>assets/js/plugins.js"></script>
 <script type="text/javascript" src="<?php echo base_url() ?>assets/js/actions.js"></script>
+<script type="text/javascript" src="<?php echo base_url() ?>assets/slider/jquery.bxslider.min.js"></script>
 <!--    End import JS   -->
   <script type="text/javascript">
     $(document).ready(function () {
       $('label.tree-toggler').click(function () {
         $(this).parent().children('ul.tree').toggle(300);
-      });   
+      });
+      $('.bxslider').bxSlider();
     });
   </script>
 
